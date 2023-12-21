@@ -1,0 +1,8 @@
+### ALIASES ###
+
+
+
+### SET PROMPT ###
+# [sriram@A35K 22:44:50] ~/Documents followed by green $
+NEWLINE=$'\n'
+PROMPT="${NEWLINE}[%n@%m %*] %~ ${NEWLINE}%F{green}$%f "
